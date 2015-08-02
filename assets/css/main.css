@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+	html{
+		 height: 100%;
+	 }
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -746,13 +750,14 @@
 
 /* Basic */
 
-	body {
+	body, .color-bg {
 		background-image: url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Arial', sans-serif;
 		font-weight: 300;
 		color: #777777;
+		height: 100%;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -765,6 +770,14 @@
 			-ms-animation: none !important;
 			animation: none !important;
 		}
+
+	.color-bg{
+		background-image: url("images/bg-color.jpg");
+		width: 100%;
+		position: fixed;
+		min-height: 100%;
+		opacity: 0;
+	}
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1327,7 +1340,7 @@
 
 			#main {
 				width: 45em;
-				background: #ffffff;
+				background: rgba(255,255,255,0.9);
 				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 			}
 

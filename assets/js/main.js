@@ -177,6 +177,8 @@
 
 							if (id in panels)
 								panels[id]._activate();
+							setTimeout(function(){$('.color-bg').css('height', $('#wrapper').outerHeight());}, 1000)
+
 
 						}
 
@@ -188,6 +190,8 @@
 
 							if (!isLocked)
 								$body._resize();
+
+							setTimeout(function(){$('.color-bg').css('height', $('#wrapper').outerHeight());})
 
 						});
 
@@ -239,5 +243,30 @@
 			});
 
 	});
+	//window.colorOpacity = 0;
+	//window.direction = 1;
+	//$(document).mousemove(function(){
+	//	if(window.colorOpacity < 1) {
+	//		window.colorOpacity += 0.01;
+	//	}else{
+	//		window.colorOpacity -= 0.01;
+	//	}
+	//	$('.color-bg').css('opacity', window.colorOpacity);
+	//});
+	//$(document).scroll(function(){
+	//	if(window.direction) {
+	//		window.colorOpacity += 0.01;
+	//	}else{
+	//		window.colorOpacity -= 0.01;
+	//	}
+	//	if(window.colorOpacity >= 0.9){
+	//		window.direction = 0;
+	//	}
+	//	if(window.colorOpacity < 0){
+	//		window.direction = 1;
+	//	}
+	//	$('.color-bg').css('opacity', window.colorOpacity);
+	//});
+
 
 })(jQuery);
