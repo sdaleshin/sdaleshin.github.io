@@ -236,9 +236,9 @@
 			})
 			.on('-desktop', function() {
 
-				window.setTimeout(function() {
-					location.reload(true);
-				}, 50);
+//				window.setTimeout(function() {
+//					location.reload(true);
+//				}, 50);
 
 			});
 
