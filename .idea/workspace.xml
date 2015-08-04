@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56342471-e750-4e52-83c5-8c406dbc81eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="56342471-e750-4e52-83c5-8c406dbc81eb" name="Default" comment="" />
     <ignored path="nio71.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="56342471-e750-4e52-83c5-8c406dbc81eb" time="1438725134032" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="56342471-e750-4e52-83c5-8c406dbc81eb" time="1438725663612" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="56342471-e750-4e52-83c5-8c406dbc81eb" time="1438725664473" ignored="false" />
     <file path="/a.dummy" changelist="56342471-e750-4e52-83c5-8c406dbc81eb" time="1438725302940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
